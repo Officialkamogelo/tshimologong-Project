@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+    <style>
+      .container1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+    </style>
+</head>
+<body>
+    <form action="connect.php" method="post" class="container">
+        <h1>Take our Survey</h1>
+        <br>
+        <h3>Personal Details:</h3>
+        <br>
+        <label for="lastName">Surname</label>
+        <input type="text" id="lastName" name="lastName"><br>
+    
+        <label for="firstName">First Names</label>
+        <input type="text" id="firstName" name="firstName"><br>
+    
+        <label for="number">Contact Number</label>
+        <input type="text" id="number" name="number"><br>
+    
+        <label for="date">Date</label>
+        <input type="text" id="date" name="date"><br>
+    
+        <label for="age">Age</label>
+        <input type="text" id="age" name="age"><br>
+    
+        <br>
+        <br>
+   
+        <label>What is your favourite food? (You can choose more than 1 answer)</label><br>
+        <input type="checkbox" id="checkbox1" name="checkbox1">
+        <label for="checkbox1">Pizza</label><br>
+    
+        <input type="checkbox" id="checkbox2" name="checkbox2">
+        <label for="checkbox2">Pasta</label><br>
+    
+        <input type="checkbox" id="checkbox3" name="checkbox3">
+        <label for="checkbox3">Pap and Wors</label><br>
+    
+        <input type="checkbox" id="checkbox4" name="checkbox4">
+        <label for="checkbox4">Chicken stir fry</label><br>
+    
+        <input type="checkbox" id="checkbox5" name="checkbox5">
+        <label for="checkbox5">Beef stir fry</label><br>
+    
+        <input type="checkbox" id="checkbox6" name="checkbox6">
+        <label for="checkbox6">Other</label><br>
+    
+        <br>
+        <br>
+        <table>
+          <p>On a scale of 1 to 5 indicate whether you strongly agree to strongly disagree</p>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Strongly Agree (1)</th>
+              <th>Agree (2)</th>
+              <th>Neutral (3)</th>
+              <th>Disagree (4)</th>
+              <th>Strongly Disagree (5)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>I like to eat out</td>
+              <td><input type="radio" id="checkbox1_1" name="checkbox1" value="1"></td>
+              <td><input type="radio" id="checkbox1_2" name="checkbox1" value="2"></td>
+              <td><input type="radio" id="checkbox1_3" name="checkbox1" value="3"></td>
+              <td><input type="radio" id="checkbox1_4" name="checkbox1" value="4"></td>
+              <td><input type="radio" id="checkbox1_5" name="checkbox1" value="5"></td>
+             </tr>
+            <tr>
+              <td>I like to watch movies</td>
+              <td><input type="radio" id="checkbox2_1" name="checkbox2" value="1"></td>
+              <td><input type="radio" id="checkbox2_2" name="checkbox2" value="2"></td>
+              <td><input type="radio" id="checkbox2_3" name="checkbox2" value="3"></td>
+              <td><input type="radio" id="checkbox2_4" name="checkbox2" value="4"></td>
+              <td><input type="radio" id="checkbox2_5" name="checkbox2" value="5"></td>
+            </tr>
+            <tr>
+              <td>I like to watch TV</td>
+              <td><input type="radio" id="checkbox3_1" name="checkbox3" value="1"></td>
+              <td><input type="radio" id="checkbox3_2" name="checkbox3" value="2"></td>
+              <td><input type="radio" id="checkbox3_3" name="checkbox3" value="3"></td>
+              <td><input type="radio" id="checkbox3_4" name="checkbox3" value="4"></td>
+              <td><input type="radio" id="checkbox3_5" name="checkbox3" value="5"></td>
+            </tr>
+            <tr>
+              <td>I like to listen to the radio</td>
+              <td><input type="radio" id="checkbox4_1" name="checkbox4" value="1"></td>
+              <td><input type="radio" id="checkbox4_2" name="checkbox4" value="2"></td>
+              <td><input type="radio" id="checkbox4_3" name="checkbox4" value="3"></td>
+              <td><input type="radio" id="checkbox4_4" name="checkbox4" value="4"></td>
+              <td><input type="radio" id="checkbox4_5" name="checkbox4" value="5"></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="container1">
+          <button class="centered-button">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
